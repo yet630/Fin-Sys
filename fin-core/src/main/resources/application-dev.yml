@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: fin-core
+server:
+  port: 8081
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: false
+
+  service-url:
+      defaultZone: http://127.0.0.1/eureka/
